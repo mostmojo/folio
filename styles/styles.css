@@ -145,7 +145,7 @@ nav ul {
 
 .intro h3 {
   font-size: 3rem;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .intro p {
@@ -194,8 +194,8 @@ nav ul {
 }
 
 #me {
-  -webkit-animation: me 3s ease infinite alternate;
-          animation: me 3s ease infinite alternate;
+  -webkit-animation: me 2.5s ease infinite alternate;
+          animation: me 2.5s ease infinite alternate;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
