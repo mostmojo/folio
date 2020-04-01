@@ -84,3 +84,16 @@ $gray-text: #2c2c2c;
 		margin: 2rem;
 	}
 }
+
+@media screen and (max-width: 375px) {
+	.intro {
+		min-height: 80vh;
+		h2 {
+			font-size: 3rem;
+		}
+
+		h3 {
+			font-size: 2rem;
+		}
+	}
+}
