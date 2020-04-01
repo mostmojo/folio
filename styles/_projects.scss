@@ -3,8 +3,14 @@
 	margin: auto;
 	min-height: 90vh;
 	@include flex(space-between, center, row);
+	text-align: center;
+	flex-wrap: wrap;
+	h2 {
+		margin: 5rem;
+	}
 }
 
-.travelly, .elena-joy {
+.travelly,
+.elena-joy {
 	flex: 1 1 40rem;
 }
