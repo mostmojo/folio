@@ -14,6 +14,9 @@ nav {
 		h1 {
 			margin: 2rem;
 		}
+		img {
+			height: 4rem;
+		}
 	}
 	ul {
 		@include flex(space-around, center, row);
@@ -31,9 +34,9 @@ nav {
 	h2 {
 		font-size: 6rem;
 		padding-top: 2rem;
-		background: $gradient;
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
+		// background: $gradient;
+		// background-clip: text;
+		// -webkit-text-fill-color: transparent;
 		display: inline-block;
 	}
 
