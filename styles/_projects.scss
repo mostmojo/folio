@@ -1,0 +1,10 @@
+.projects {
+	width: 90%;
+	margin: auto;
+	min-height: 90vh;
+	@include flex(space-between, center, row);
+}
+
+.travelly, .elena-joy {
+	flex: 1 1 40rem;
+}
