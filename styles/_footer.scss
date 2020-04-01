@@ -1,0 +1,10 @@
+footer {
+	background: white;
+	min-height: 10vh;
+	color: white;
+	padding: 0% 5%;
+	@include flex(space-between, center, row);
+	h4 {
+		color: black;
+	}
+}
