@@ -216,10 +216,8 @@ nav ul {
 }
 
 .active {
-  background: #2c2c2c;
-  color: #fff;
-  padding: 1rem 3rem;
-  border-radius: 0.2rem;
+  color: #2c2c2c;
+  border-bottom: 2px solid #2c2c2c;
 }
 
 .intro-text,

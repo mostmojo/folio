@@ -100,10 +100,8 @@ nav {
 }
 
 .active {
-	background: $gray-text;
-	color: #fff;
-	padding: 1rem 3rem;
-	border-radius: 0.2rem;
+	color: $gray-text;
+	border-bottom: 2px solid $gray-text;
 }
 
 .intro-text,
