@@ -35,7 +35,7 @@ nav {
 	@include flex(space-between, center, row);
 
 	h2 {
-		font-size: 6rem;
+		font-size: 4.5rem;
 		padding-top: 2rem;
 		// background: $gradient;
 		// background-clip: text;
@@ -84,7 +84,14 @@ nav {
 		opacity: 0.25;
 		text-decoration: none;
 		font-size: 28px;
-		padding: 0px 10px;
+	}
+
+	.footer-links a:not(:first-child) {
+		padding: 0 10px;
+	}
+
+	.footer-links a:first-child {
+		padding: 0 10px 0 0;
 	}
 
 	.footer-links a:hover {

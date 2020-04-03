@@ -145,7 +145,7 @@ nav ul {
 }
 
 .intro h2 {
-  font-size: 6rem;
+  font-size: 4.5rem;
   padding-top: 2rem;
   display: inline-block;
 }
@@ -201,7 +201,14 @@ nav ul {
   opacity: 0.25;
   text-decoration: none;
   font-size: 28px;
-  padding: 0px 10px;
+}
+
+.footer .footer-links a:not(:first-child) {
+  padding: 0 10px;
+}
+
+.footer .footer-links a:first-child {
+  padding: 0 10px 0 0;
 }
 
 .footer .footer-links a:hover {
@@ -494,6 +501,11 @@ footer h4 {
   form {
     padding: 0;
     width: 100%;
+  }
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
