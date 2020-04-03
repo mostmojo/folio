@@ -387,6 +387,12 @@ nav ul {
   background: #5656a9;
 }
 
+fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 footer {
   background: #e6e6e6;
   min-height: 10vh;

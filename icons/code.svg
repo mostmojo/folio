@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="194px" height="194px" viewBox="0 0 194 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
     <title>Group 3</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-9.7%" y="-9.7%" width="119.3%" height="119.3%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+        <filter x="-4.2%" y="-4.2%" width="108.3%" height="108.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
             <feMerge>
                 <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <path d="M88,176 C136.601058,176 176,136.601058 176,88 C176,76.7233852 173.878951,65.9421679 170.014045,56.0335382 C157.221598,23.2369856 125.324443,0 88,0 C39.398942,0 0,39.398942 0,88 C0,136.601058 39.398942,176 88,176 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F98940" offset="54.5001313%"></stop>
+            <stop stop-color="#EF370A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M60,120 C93.137085,120 120,93.137085 120,60 C120,52.311399 118.553831,44.960569 115.918667,38.2046851 C107.196544,15.8433993 85.448484,0 60,0 C26.862915,0 0,26.862915 0,60 C0,93.137085 26.862915,120 60,120 Z" id="path-3"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy" transform="translate(-103.000000, -55.000000)">
-            <g id="Group-3" transform="translate(112.000000, 62.000000)">
+        <g id="Artboard-Copy-4" transform="translate(-85.000000, -85.000000)">
+            <g id="Group-3" transform="translate(90.000000, 90.000000)">
                 <g id="Group-3-Copy" filter="url(#filter-1)">
                     <g id="Oval">
-                        <use fill="#008489" fill-rule="evenodd" style="mix-blend-mode: screen;" xlink:href="#path-2"></use>
-                        <use stroke="#FFFFFF" stroke-width="10" xlink:href="#path-2"></use>
+                        <use fill="#81C2C5" style="mix-blend-mode: screen;" xlink:href="#path-3"></use>
+                        <use stroke="#FFFFFF" stroke-width="10" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
                     </g>
-                    <circle id="Oval-Copy-2" stroke="#484848" stroke-width="5" cx="88" cy="88" r="88"></circle>
-                    <path d="M74.9365474,106.850873 L105.269214,106.261571 L89.9555556,136.888889 L74.9365474,106.850873 Z M67.9523412,92.8824602 L50.8444444,58.6666667 L129.066667,58.6666667 L118.779017,79.2419665 L67.9523412,92.8824602 Z" id="logo" stroke="#484848" stroke-width="5" fill="#FFFFFF"></path>
+                    <circle id="Oval-Copy-2" stroke="#484848" stroke-width="4" cx="60" cy="60" r="60"></circle>
+                    <path d="M48.1311782,75.2623564 L73.1114796,74.7770407 L60.5,100 L48.1311782,75.2623564 Z M42.2535841,63.5071682 L28,35 L93,35 L84.4021833,52.1956335 L42.2535841,63.5071682 Z" id="logo" stroke="#484848" stroke-width="3" fill="#FFFFFF"></path>
                 </g>
             </g>
         </g>
