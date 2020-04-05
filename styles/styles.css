@@ -183,7 +183,7 @@ nav ul {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  height: 100px;
+  height: 80px;
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -457,8 +457,7 @@ fieldset {
 }
 
 footer {
-  background: #e6e6e6;
-  min-height: 10vh;
+  background: #f4f4f4;
   color: white;
   padding: 0% 5%;
   display: -webkit-box;
@@ -478,6 +477,8 @@ footer {
 
 footer h4 {
   color: black;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1332px) {

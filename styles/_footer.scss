@@ -1,10 +1,11 @@
 footer {
-	background: rgb(230, 230, 230);
-	min-height: 10vh;
+	background: #f4f4f4;
 	color: white;
 	padding: 0% 5%;
 	@include flex(space-between, center, row);
 	h4 {
 		color: black;
+		font-size: 12px;
+		font-weight: 300;
 	}
 }
