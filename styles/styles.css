@@ -288,6 +288,12 @@ nav ul {
   }
 }
 
+.email:hover,
+.email:focus,
+.email:active {
+  color: #f66e30;
+}
+
 .projects {
   width: 90%;
   margin: auto;
@@ -467,7 +473,7 @@ footer h4 {
     margin: 2rem 0rem;
   }
   .intro-text {
-    margin-top: 3rem;
+    margin-top: 1rem;
     text-align: center;
   }
   .intro-images {

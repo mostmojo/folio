@@ -146,11 +146,8 @@ nav {
 	}
 }
 
-// @keyframes clock {
-// 	from {
-// 		transform: rotateZ(0deg);
-// 	}
-// 	to {
-// 		transform: rotateZ(360deg);
-// 	}
-// }
+.email:hover,
+.email:focus,
+.email:active {
+	color: #f66e30;
+}
