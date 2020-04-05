@@ -183,7 +183,7 @@ nav ul {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  height: 80px;
+  height: 60px;
   color: rgba(0, 0, 0, 0.3);
 }
 
