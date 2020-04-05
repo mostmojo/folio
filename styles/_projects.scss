@@ -4,6 +4,7 @@
 	min-height: 90vh;
 	h3 {
 		margin-bottom: 2rem;
+		font-weight: 300;
 	}
 }
 
@@ -26,6 +27,18 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 16px;
+}
+
+.card-category-link div:hover,
+:focus,
+:active {
+	color: #f66e30;
+}
+
+@media screen and (max-width: 414px) {
+	.projects h3 {
+		padding: 0 2rem;
+	}
 }
 
 // Smallest device
